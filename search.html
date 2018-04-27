@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Beers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body class="site">
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Brew Guide</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">About</a>
+          </li>
+          <li>
+            <a href="team.html">Team Info</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="center-align site-content">
+    <h2></h2>
+    <div class="form">
+      <form>
+        <select name="hops">
+          <option value="Select your Hops...."></option>
+          <option value="Amirillo">Amirillo</option>
+          <option value="Cascade">Cascade</option>
+          <option value="Saaz">Saaz</option>
+          <option value="Simcoe">Simcoe</option>
+        </select>
+        <a class="waves-effect waves-light btn-small">Button</a>
+      </form>
+    </div>
+    <div class="item">
+      <h2 class="beer-name">Name of Beer</h2>
+      <p class="description">Description paragraph</p>
+      <h3 class="ingredients">Ingredients</h3>
+      <h4>Malts</h4>
+      <ul class="malt"></ul>
+      <h4>Hops</h4>
+      <ul class="hops"></ul>
+      <h4>Yeast</h4>
+      <ul class="yeast"></ul>
+    </div>
+  </main>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <footer id="bottom-footer">
+    <h2>Copyright 2018</h2>
+    <h2>Brew Guide</h2>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>

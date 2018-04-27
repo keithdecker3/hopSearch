@@ -1,0 +1,53 @@
+
+/*--Sticky Footer Fix--*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+
+/*-------Nav------*/
+
+/*----Main--------*/
+
+
+
+/*----Footer----*/
+#bottom-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+footer {
+      font-size: 1em;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .8% 3% .8% 3%;
+      background-color: rgb(36, 36, 36);
+      border-top: 3px solid #CC2A1D;
+      border-bottom: 3px solid #CC2A1D;
+}
+
+footer h2{
+  font-size: 12px;
+  font-family: 'Roboto',sans-serif;
+}

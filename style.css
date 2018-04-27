@@ -23,8 +23,20 @@ body {
 /*-------Nav------*/
 
 /*----Main--------*/
+.beer-name{
+  font-size: 3em;
+}
+.ingredients{
+  color: rgba(74, 77, 84,100)
+}
 
+h4 {
+  color: rgba(74, 77, 84, 50)
+}
 
+.hidden {
+  display: none;
+}
 
 /*----Footer----*/
 #bottom-footer {
@@ -35,19 +47,3 @@ body {
   width: 100%;
 }
 
-footer {
-      font-size: 1em;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: .8% 3% .8% 3%;
-      background-color: rgb(36, 36, 36);
-      border-top: 3px solid #CC2A1D;
-      border-bottom: 3px solid #CC2A1D;
-}
-
-footer h2{
-  font-size: 12px;
-  font-family: 'Roboto',sans-serif;
-}

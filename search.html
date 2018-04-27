@@ -6,20 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Beers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
-<body class="site">
+<body>
   <header>
     <nav>
       <div class="nav-wrapper">
         <a href="index.html" class="brand-logo">Brew Guide</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li>
-            <a href="index.html">About</a>
-          </li>
+
           <li>
             <a href="team.html">Team Info</a>
           </li>
@@ -28,7 +26,6 @@
     </nav>
   </header>
   <main class="center-align site-content">
-    <h2></h2>
     <div class="form">
       <form>
         <select name="hops">
@@ -38,7 +35,11 @@
           <option value="Saaz">Saaz</option>
           <option value="Simcoe">Simcoe</option>
         </select>
-        <a class="waves-effect waves-light btn-large">Get Recipe</a>
+        <img class='search-image' src="https://media.istockphoto.com/photos/glass-of-beer-on-white-background-picture-id585479204?k=6&m=585479204&s=612x612&w=0&h=o-ccc_02WKV6Gu8AUGu-RV7avlmxmHRxHXlInq_zB_c=">
+
+        <div id="main-content">
+          <a class="waves-effect waves-light btn-large">Find Random Recipe</a>
+        </div>
       </form>
     </div>
     <div class="item hidden">

@@ -1,28 +1,25 @@
 
-/*--Sticky Footer Fix--*/
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1 0 auto;
-}
-
-.footer {
-  flex-shrink: 0;
-}
-
-
 /*-------Nav------*/
 
 /*----Main--------*/
+#cta {
+  padding-top: 300px;
+}
+
+.beerpic1{
+  height: 450px;
+  margin-bottom: 3%;
+
+}
+#main-content{
+  margin-top: 3%;
+}
+
+#main-content p{
+ font-size: 32px;
+ font-weight: 300;
+}
+
 .beer-name{
   font-size: 3em;
 }
@@ -39,11 +36,39 @@ h4 {
 }
 
 /*----Footer----*/
-#bottom-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
-}
 
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .profile-image {
+    height: 300px;
+  }
+
+.search-image {
+  height: 250px;
+  margin-top: 20px;
+  }
+
+  .description {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .top-image {
+    margin-top: 50px
+  }
+
+  .nav-wrapper {
+    background-color: rgb(117, 69, 15)
+  }
+
+  .page-footer{
+    background-color: rgb(117, 69, 15)
+  }
